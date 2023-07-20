@@ -1,0 +1,30 @@
+.container {
+  width: 258px;
+  height: fit-content;
+  position: absolute;
+  top: 10vh;
+  right: 350px;
+  border-radius: 10px;
+  display: flex;
+  background-color: #1d1d1d;
+  flex-direction: column;
+  padding: 15px;
+  gap: 8px;
+}
+.title {
+  color: white;
+  font-family: cursive;
+  font-size: 20px;
+}
+.title2 {
+  color: white;
+  font-family: cursive;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.layerCont {
+  width: 100%;
+  display: flex;
+  gap: 7px;
+  padding-left: 10px;
+}
