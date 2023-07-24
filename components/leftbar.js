@@ -1,9 +1,9 @@
+import { useEffect } from "react";
 import styles from "../styles/components/leftbar.module.css";
 
 export default function leftbar() {
   return (
     <div className={styles.container}>
-      <button className="btn btn-wide btn-outline btn-secondary">Upload Meme</button>
       <div className={styles.line}></div>
       <div className={styles.catagoryCont}>
         <button className="btn btn-sm btn-outline btn-secondary">Latest Memes</button>
